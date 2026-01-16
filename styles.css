@@ -3,8 +3,8 @@
 }
 
 html {
-    background-color: #332;
-    color: #996;
+    background-color: #653;
+    color: #a96;
     font-family: system-ui, sans-serif;
 }
 
@@ -31,4 +31,8 @@ header {
     ul {
         margin: 0;
     }
+}
+
+canvas {
+    border: 3px solid #000;
 }
