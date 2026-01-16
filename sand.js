@@ -127,6 +127,30 @@ const initCanvas = () => {
 }
 
 
+class Action {
+    constructor(mapping, action) {
+        this.mapping = mapping
+        this.action = action
+    }
+}
+
+class Particle {
+    constructor(type, col, actions) {
+        this.type = type
+        this.col = col
+        this.actions = actions
+    }
+
+    update(grid) {
+        this.actions.forEach(action => {
+
+        })
+    }
+}
+
+
+
+
 const initSand = () => {
     const cells = WIDTH * HEIGHT
 
